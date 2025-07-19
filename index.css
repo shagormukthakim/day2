@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    margin: 20px;
+    padding: 10px;
+
+}
+#input{
+    padding: 10px;
+}
+#btn{
+    background-color: rgb(150, 244, 244);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+
+}
+#in{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: rgb(226, 226, 238);
+
+}
+.item{
+        margin: 20px;
+    padding: 10px;
+    
+
+}
