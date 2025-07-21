@@ -1,50 +1,23 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, white);
+    height: 100vh;
 }
-#main{
-    margin: 20px;
-    padding: 10px;
+
+.loader {
+    height: 50px;
+    width: 50px;
+    border: 6px solid black;
+    border-top:5px solid green;
+    border-radius: 50px;
+    animation: spin 1s linear infinite;
 
 }
-#input{
-    padding: 10px;
-}
-#btn{
-    background-color: rgb(150, 244, 244);
-    color: black;
-    border: none;
-    height: 30px;
-    width: 40px;
-    border-radius: 5px;
-
-}
-#in{
-    height: 30px;
-    width: 200px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    background-color: rgb(226, 226, 238);
-
-}
-.item{
-        margin: 20px;
-    padding: 10px;
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
     
+}
 
-}
-.ul{
-    display:flex;
-}
-.b{
-        background-color: rgb(10, 239, 25);
-    color: rgb(255, 255, 255);
-    border: none;
-    height: 40px;
-    width: 60px;
-    border-radius: 5px;
-        margin: 20px;
-    padding: 10px;
-
-}
