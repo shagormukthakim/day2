@@ -34,3 +34,17 @@
     
 
 }
+.ul{
+    display:flex;
+}
+.b{
+        background-color: rgb(10, 239, 25);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+        margin: 20px;
+    padding: 10px;
+
+}
